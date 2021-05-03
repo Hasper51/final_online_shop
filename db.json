@@ -1,0 +1,278 @@
+{
+"goods":[
+
+  {
+    "id": "1",
+    "img": "assets/img/image-122.jpg",
+    "name": "Striped Long Sleeve Shirt",
+    "label": "new",
+    "description": "Red/Sky Blue",
+    "price": "119",
+    "newprice": "109",
+    "category": "Clothing",
+    "gender": "Womens",
+    "brand": "Dolche Gabana"
+  },
+  {
+    "id": "2",
+    "img": "assets/img/201mt210e.jpg",
+    "name": "Poplin Top With Sleeve Bow",
+    "label": "Bestseller",
+    "description": "Bright Blue",
+    "price": "129",
+    "newprice": "100",
+    "category": "Clothing",
+    "gender": "Womens",
+    "brand": "Dolche Gabana"
+  },
+  {
+    "id": "3",
+    "img": "assets/img/61SVZdHi1SL.jpg",
+    "name": "TOMS Women's Alpargata Loafer",
+    "label": "Bestseller",
+    "description": "Red",
+    "price": "219",
+    "newprice": "",
+    "category": "Shoes",
+    "gender": "Womens",
+    "brand": "Dolche Gabana"
+  },
+  {
+    "id": "4",
+    "img": "assets/img/thR2gxLUL1152.jpg",
+    "name": "Text T-Shirt",
+    "label": "Bestseller",
+    "description": "Pink and dogs",
+    "price": "119",
+    "newprice": "",
+    "category": "Clothing",
+    "gender": "Womens",
+    "brand": "Dolche Gabana"
+  },
+  {
+    "id": "5",
+    "img": "assets/img/81ecpN8bKL.jpg",
+    "name": "Sweater Choker Neck",
+    "label": "Bestseller",
+    "description": "Dustyolive",
+    "price": "319",
+    "newprice": "",
+    "category": "Clothing",
+    "gender": "Womens",
+    "brand": "Dolche Gabana"
+  },
+  {
+    "id": "6",
+    "img": "assets/img/61xZxTBffZL.jpg",
+    "name": "SJP by Sarah Jessica Parker",
+    "label": "",
+    "description": "Black/Nude Patent",
+    "price": "242",
+    "newprice": "",
+    "category": "Shoes",
+    "gender": "Womens",
+    "brand": "Dolche Gabana"
+  },
+  {
+    "id": "7",
+    "img": "assets/img/71AogkKMguL.jpg",
+    "name": "ECCO Biom Aex Luxe Hydromax Water-Resistant Cross Trainer",
+    "label": "",
+    "description": "Black",
+    "price": "199",
+    "newprice": "",
+    "category": "Shoes",
+    "gender": "Mens",
+    "brand": "Dolche Gabana"
+  },
+  {
+    "id": "8",
+    "img": "assets/img/71wbXtpEwQL.jpg",
+    "name": "Nike Air Max Torch 3 Men's Running Shoes",
+    "label": "",
+    "description": "Black/White",
+    "price": "153",
+    "newprice": "",
+    "category": "Shoes",
+    "gender": "Mens",
+    "brand": "Dolche Gabana"
+  },
+  {
+  "id": "9",
+  "img": "assets/img/71Ka10xx6.jpg",
+  "name": "Printed Shirt with a Bow",
+  "label": "",
+  "description": "Pink/Sky Blue/Yellow",
+  "price": "119",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "10",
+  "img": "assets/img/image-121.jpg",
+  "name": "Text T-Shirt",
+  "label": "New",
+  "description": "White",
+  "price": "59",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "11",
+  "img": "assets/img/image-120.jpg",
+  "name": "Faded Beach Trousers",
+  "label": "New",
+  "description": "Ochre",
+  "price": "139",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "12",
+  "img": "assets/img/image-119.jpg",
+  "name": "Embroidered Hoodie",
+  "label": "New",
+  "description": "Lilac",
+  "price": "89",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "13",
+  "img": "assets/img/A1GFd9I31.jpg",
+  "name": "Bugatchi Men's Long Sleeve Printed Cotton Pointed Collar Shirt",
+  "label": "New",
+  "description": "Periwinkle",
+  "price": "109",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "14",
+  "img": "assets/img/819MP6k4E6L.jpg",
+  "name": "SITKA Gear Men's Hunting Windproof Optifade",
+  "label": "",
+  "description": "Elevated Ii",
+  "price": "299",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "15",
+  "img": "assets/img/713S476iemL.jpg",
+  "name": "Derek Rose Men's Short Sleeve T-Shirt",
+  "label": "",
+  "description": "Charcoal",
+  "price": "119",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "16",
+  "img": "assets/img/61BjZJm0AaL.jpg",
+  "name": "LEKODE Men Beach Shorts Drawstring Print Pocket Fashion Casual Swim Pants",
+  "label": "",
+  "description": "Red-Cola",
+  "price": "19",
+  "newprice": "",
+  "category": "Clothing",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "17",
+  "img": "assets/img/91DXANwJ63L.jpg",
+  "name": "Anna by Anuschka Women's Genuine Leather Large Hobo Handbag",
+  "label": "Bestseller",
+  "description": "Tuscan Tiles",
+  "price": "199",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "18",
+  "img": "assets/img/61vHzipbVL.jpg",
+  "name": "Prada Trick Pelle Saffiano Dog",
+  "label": "",
+  "description": "White / White Chihuahua Gold Keychain",
+  "price": "450",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "19",
+  "img": "assets/img/81zhsxFeEJL.jpg",
+  "name": "Willberries Essentials Women's Faux Fur Ear Muffs",
+  "label": "Bestseller",
+  "description": "Leopard",
+  "price": "19",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "20",
+  "img": "assets/img/61-25976rtL.jpg",
+  "name": "Purse Organizer Insert, Felt Bag organizer with zipper",
+  "label": "",
+  "description": "Black / Felt",
+  "price": "29",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Womens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "21",
+  "img": "assets/img/51xrpCz0wuL.jpg",
+  "name": "Spyder Mens Pinnacle GTX Ski Glove",
+  "label": "",
+  "description": "Black",
+  "price": "239",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "22",
+  "img": "assets/img/51EeCDi3G9L.jpg",
+  "name": "Salvatore Ferragamo Double Gancini Glossy Buckle",
+  "label": "",
+  "description": "Black/Brown Reversible Belt",
+  "price": "417",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "23",
+  "img": "assets/img/61qMUpjOx7L.jpg",
+  "name": "American Hat Makers Sierra Cowboy Hat",
+  "label": "new",
+  "description": "Handcrafted, Genuine Leather, Breathable / Latte",
+  "price": "217",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+},{
+  "id": "24",
+  "img": "assets/img/41heUmYaMGL.jpg",
+  "name": "Oakley Men's Flak 2.0 XL OO9188 Sunglasses Bundle",
+  "label": "",
+  "description": "Matte Black/Prizm Deep Water Polarized",
+  "price": "206",
+  "newprice": "",
+  "category": "Accessories",
+  "gender": "Mens",
+  "brand": "Dolche Gabana"
+}
+]
+}
