@@ -4,11 +4,11 @@
       @select-category="filterGoods"
     />
     <b-container>
-      <h5 class="category-name">ВСЕ ТОВАРЫ</h5>
+      <h5 class="category-name">{{this.category}}</h5>
       <b-row>
         <b-col cols="3" class="mb-4" v-for="good in sortedGood" :key="good.id">
           <div class="goods-card">
-            
+            <span class="label" v-if="good.label">{{good.label}}</span>
             <img :src="require(`../${good.img}`)" @click="$router.push({ path: `/goods/${good.id}`})">
             <div class="price-sale-block" v-if="good.newprice">
               <h5 class="price-sale">{{good.newprice}} руб.</h5>
@@ -44,7 +44,8 @@ export default {
   name: 'Home',
   data(){
     return {
-      filteredgoods:[]
+      filteredgoods:[],
+      category: 'ALL'
     }
   },
   components: {
@@ -63,6 +64,7 @@ export default {
   methods: {
     ...mapActions(['loadGoods']),
     filterGoods(value){
+      this.category = value;
       this.filteredgoods = [];
       let vm = this;
       this.allGoods.map(function(item){
@@ -147,7 +149,15 @@ export default {
 .sale{
   color: #BA1219;
 }
-
+.label{
+  position: absolute;
+  background-color: #3DC47E;
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
 .discount {
   
   background-color: #CC0008;

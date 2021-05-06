@@ -1,6 +1,8 @@
 <template>
   <div class="about">
     <Navigation
+      @navigate="NavigationLink"
+      
     />
     <b-container>
       <b-row class="mt-5" v-if="onegoods">
@@ -16,13 +18,13 @@
           <button class="add_cart">Добавить в корзину</button>
           <div class="specification">
             <span>О товаре:</span>
-            <span>пол: мужской</span>
-            <span>цвет: красный</span>
-            <span>материал: хлопок</span>
+            <span>пол: {{onegoods.gender}}</span>
+            <span>цвет: {{onegoods.color}}</span>
+            <span>материал: {{onegoods.fabric}}</span>
             <span>модель(тип): футболка</span>
-            <span>сезон: лето</span>
-            <span>артикул: 1110151050</span>
-            <span>страна-производитель: Индонезия </span>
+            <span>сезон: {{onegoods.season}}</span>
+            <span>артикул: {{onegoods.article_number}}</span>
+            <span>страна-производитель: {{onegoods.country_manufacturer}}</span>
           </div>
         </b-col>
       </b-row>
@@ -49,6 +51,10 @@ export default {
   },
   methods: {
     ...mapActions(['loadOneGoods']),
+    NavigationLink(){
+      this.$router.push({ path: '/goods'})
+        
+    },
     
 },
   
