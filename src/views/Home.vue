@@ -3,12 +3,13 @@
     <Navigation 
       @select-category="filterGoods"
     />
+    
     <b-container>
       <h5 class="category-name">{{this.category}}</h5>
       <b-row>
         <b-col cols="3" class="mb-4" v-for="good in sortedGood" :key="good.id">
           <div class="goods-card">
-            <span class="label" v-if="good.label">{{good.label}}</span>
+            
             <img :src="require(`../${good.img}`)" @click="$router.push({ path: `/goods/${good.id}`})">
             <div class="price-sale-block" v-if="good.newprice">
               <h5 class="price-sale">{{good.newprice}} руб.</h5>
@@ -45,7 +46,7 @@ export default {
   data(){
     return {
       filteredgoods:[],
-      category: 'ALL'
+      category: 'Все товары'
     }
   },
   components: {
@@ -82,6 +83,9 @@ export default {
 </script>
 
 <style scoped>
+.home {
+  background-color: #E5E5E5;
+}
 .goods-card{
   margin: 2em 0;
   display: flex;
@@ -90,13 +94,13 @@ export default {
 }
 .category-name{
   margin-bottom: 1em;
-  margin-top: 1em;
+  padding-top: 1em;
 }
 .goods-card img{
   cursor: pointer;
   object-fit: contain;
   max-width: 100%;
-  height: 190px;
+  
   display: block;
   margin-bottom: 1em;
 }
@@ -149,15 +153,7 @@ export default {
 .sale{
   color: #BA1219;
 }
-.label{
-  position: absolute;
-  background-color: #3DC47E;
-  border-radius: 3px;
-  padding: 5px 12px;
-  color: #fff;
-  font-size: 12px;
-  line-height: 15px;
-}
+
 .discount {
   
   background-color: #CC0008;

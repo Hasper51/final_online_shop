@@ -2,7 +2,7 @@
   <div class="about">
     <Navigation
       @navigate="NavigationLink"
-      
+      :category="onegoods.category"
     />
     <b-container>
       <b-row class="mt-5" v-if="onegoods">
@@ -21,7 +21,7 @@
             <span>пол: {{onegoods.gender}}</span>
             <span>цвет: {{onegoods.color}}</span>
             <span>материал: {{onegoods.fabric}}</span>
-            <span>модель(тип): футболка</span>
+            <span>модель(тип): {{onegoods.model}}</span>
             <span>сезон: {{onegoods.season}}</span>
             <span>артикул: {{onegoods.article_number}}</span>
             <span>страна-производитель: {{onegoods.country_manufacturer}}</span>
@@ -65,6 +65,9 @@ export default {
 </script>
 
 <style scoped>
+.about{
+  background-color: #E5E5E5;
+}
 .onegoodsimgcontainer{
   display: flex;
   justify-content:center;

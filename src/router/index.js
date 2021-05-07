@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Main from '../App.vue'
+import Main from '../views/Main.vue'
 import Home from '../views/Home.vue'
 import OneGoods from '../views/OneGoods.vue'
 
@@ -12,7 +12,7 @@ const routes = [
     component: Main,
     children: [
       {path: '', component: Home},
-      {path: ':id', component: OneGoods},
+      {path: ':id', component:  OneGoods},
       
     ]
   },
